@@ -1,0 +1,48 @@
+.support {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  .contact-list {
+    list-style: none;
+    margin-top: 30px;
+    padding: 0;
+  }
+  
+  .contact-list li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .contact-list strong {
+    font-weight: bold;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .support {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+  
+    p {
+      font-size: 16px;
+    }
+  }
